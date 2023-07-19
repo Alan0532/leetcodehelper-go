@@ -1,3 +1,5 @@
+[Java版本](https://github.com/Alan0532/leetcodehelper) [Go版本](https://github.com/Alan0532/leetcodehelper-go)
+
 本工具用于简化使用LeetCode Editor插件时构造参数的操作
 
 1. 安装Goland的LeetCode Editor插件
@@ -33,7 +35,7 @@ ${question.code}
 ```
 
 6. 使用LeetCode Editor插件生成一道题目，以第一题两数之和为例
-   
+
    将helper.Code("输入", twoSum)
 
    改为helper.Code("nums = [2,7,11,15], target = 9", twoSum)
