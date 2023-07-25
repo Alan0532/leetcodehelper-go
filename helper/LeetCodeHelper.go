@@ -101,7 +101,7 @@ func strParametersToParameters(paramSlice []string, fnType reflect.Type) ([]refl
 				}
 				value = reflect.ValueOf(intValue)
 			case reflect.String:
-				value = reflect.ValueOf(valueStr)
+				value = reflect.ValueOf(valueStr[1 : len(valueStr)-1])
 			case reflect.Bool:
 				boolValue, err := strconv.ParseBool(valueStr)
 				if err != nil {
